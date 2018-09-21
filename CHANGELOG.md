@@ -1,3 +1,34 @@
+commit 37390997869da3d95eeaed016367b7fe801e6ef5
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Sep 21 15:53:12 2018 +0300
+
+    en:
+    classic:
+      > add PrinterMode, PrinterSubmode enums
+      > implement PrintDepartmentReport, PrintTaxReport, PrintZReportFromBuffer,PrintZReportInBuffer
+      > Doc update
+    classic_java:
+      > add PrinterMode, PrinterSubmode enums
+    cppbase:
+      > add SaveZReportInBuffertCommand,PrintZReportFromBuffertCommand commands
+    qclassic:
+      > add PrinterMode, PrinterSubmode enums
+      > add QT_NO_VERSION_TAGGING to skip particular Qt version dependency
+    
+    ru:
+    classic:
+      > перечисления PrinterMode, PrinterSubmode
+      > реализованы функции PrintDepartmentReport, PrintTaxReport, PrintZReportFromBuffer,PrintZReportInBuffer
+      > Рефакторинг документаци
+    classic_java:
+      > добавлены PrinterMode, PrinterSubmode
+    cppbase:
+      > добавлены SaveZReportInBuffertCommand,PrintZReportFromBuffertCommand commands
+    qclassic:
+      > добавлены PrinterMode, PrinterSubmode
+      > определен QT_NO_VERSION_TAGGING сборка линкуется без привязке к версии Qt
+
+
 commit 55e28a139e8bcca41feb9619295b1211c053a872  
 Author: Alexey Mednyy <swexru@gmail.com>  
 Date:   Tue Sep 11 00:42:18 2018 +0300
