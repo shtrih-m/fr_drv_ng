@@ -1,3 +1,43 @@
+commit 44a414d1e3fb8358ea9e8cebb165932274a4ad91 (tag: 1.4.3)
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Sun Oct 14 03:41:43 2018 +0300
+
+    en:
+    classic:
+      > add ReadFeatureLicenses/WriteFeatureLicenses, DigitalSign property 1.4.3
+    classic_java:
+      > add ReadFeatureLicenses/WriteFeatureLicenses, DigitalSign property 1.4.3
+    console_test:
+      > read-feature-licenses, write-feature-licenses commands added
+    cppbase:
+      > ProtocolV1 improvments
+      > SerialIO improvements for Linux
+      > add FR_DRV_CMD_TIMEOUTS support, example format: 11:123,0B:421,FF45:123412
+      > PrintString* commands filled with zeroes up to minimal Protocol v1 width
+      > add enq_mode to ConnectionURI parsing: 0 - old behavior, 1 - send ENQ before each command
+      > byte_timeout deprecated
+      > Check if response command code matches request command code
+    qclassic:
+      > add ReadFeatureLicenses/WriteFeatureLicenses, DigitalSign property  1.4.3
+    
+    ru:
+    classic:
+      > добавлены методы ReadFeatureLicenses/WriteFeatureLicenses, свойство DigitalSign 1.4.3
+    classic_java:
+      > добавлены методы ReadFeatureLicenses/WriteFeatureLicenses, свойство DigitalSign 1.4.3
+    console_test:
+      > добавлены команды read-feature-licenses, write-feature-licenses
+    cppbase:
+      > ProtocolV1 усовершенствован
+      > SerialIO улучшен на Linux
+      > добавлена обработка переменной окружения FR_DRV_CMD_TIMEOUTS, теперь можно задать таймаут для отдельной команды. Пример формата: 11:123,0B:421,FF45:123412
+      > Команды печати заполняются нулями
+      > добавлено обработка параметра enq_mode в ConnectionURI: 0 - без ENQ перед каждой команды, 1 - посылать ENQ перед каждой командой
+      > byte_timeout больше не используется. Только глобалный таймаут на команду.
+      > Добавлена проверка код команды ответа должен соответствовать коду команды запроса
+    qclassic:
+      > добавлены методы ReadFeatureLicenses/WriteFeatureLicenses, свойство DigitalSign 1.4.3
+
 commit 37390997869da3d95eeaed016367b7fe801e6ef5
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Fri Sep 21 15:53:12 2018 +0300
