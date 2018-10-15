@@ -1,3 +1,29 @@
+commit 7acc61cdc63846c7748ac22955eb05a3d1f3cb7b
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Mon Oct 15 18:03:27 2018 +0300
+
+    en:
+    classic:
+      > byte_timeout deprecation cleanup
+    cppbase:
+      > remove byte_timeout from urlhelper
+    cppbase_test:
+      > update urlhelpertest
+    qclassic:
+      > to/fromSecsSinceEpoch->to/fromMSecsSinceEpoch for compatibility with old releases
+    CI: i486_ok - old kernels support build (<= 2.6.32 glibc 2.23)
+    
+    ru:
+    classic:
+      > byte_timeout больше не используется
+    cppbase:
+      > byte_timeout больше не используется
+    cppbase_test:
+      > обновлен urlhelpertest
+    qclassic:
+      > to/fromSecsSinceEpoch->to/fromMSecsSinceEpoch для совместимости с Qt <= 5.8
+    CI: i486_ok - сборка с поддержкой старых ядер (<= 2.6.32 glibc 2.23)
+
 commit 44a414d1e3fb8358ea9e8cebb165932274a4ad91 (tag: 1.4.3)
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Sun Oct 14 03:41:43 2018 +0300
