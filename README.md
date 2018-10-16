@@ -15,6 +15,7 @@
   * **fr_drv_ng_android_**$ARCH - сборки под Android
   * **fr_drv_ng_java_wrappers** - java обертки для classic и unifiedpos интерфейсов
   * **fr_drv_ng_linux_**$ARCH - сборки под Linux
+  * **fr_drv_ng_linux_i486_ok** - сборка под старые ядра Linux(гарантирована работа на 2.6.32, собрано с glibc 2.23)
   * **fr_drv_ng_windows_**$ARCH - сборки под Windows
 
   ### Содержимое сборок:
