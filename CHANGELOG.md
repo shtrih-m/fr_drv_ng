@@ -1,3 +1,34 @@
+commit 86fabefaac0e37e43cf33d8a4c0c591ddff366bd
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Wed Oct 31 14:14:34 2018 +0300
+
+    en:
+    classic:
+      > Sale, Buy, ReturnSale, ReturnBuy add rounding description (round to 3 decimal places)
+      > fix PaymentItemSign values description
+    classic_java:
+      > fix: update version
+    console_test:
+      > print current command to log
+    cppbase:
+      > setExchangeOptions check if current IoLayer supports baudrate changing
+      > protocols improvement, use timeout for connect
+      > improved max text length for ProtocolV2
+    
+    ru:
+    classic:
+      > добавлено в описание методов Sale, Buy, ReturnSale, ReturnBuy, что количество округляется до 3 знаков.
+      > исправлено описание возможных значений PaymentItemSign.
+    classic_java:
+      > обновлена версия
+    console_test:
+      > печать исполняемой команды в лог
+    cppbase:
+      > setExchangeOptions что обмен идёт через SerialIO
+      > Улучшены протоколы, использовать timeout для установки соединения
+      > Поддерживают длинных строк для ProtocolV2
+
+
 commit 7acc61cdc63846c7748ac22955eb05a3d1f3cb7b
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Mon Oct 15 18:03:27 2018 +0300
