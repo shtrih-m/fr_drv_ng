@@ -1,3 +1,16 @@
+commit aee135f02c632cfe9ac5d738b95fc35092fcd4bd
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Thu Nov 1 17:27:31 2018 +0300
+
+    en:
+    cppbase:
+        > follow up fix StartFsFiscalModeCloseCommand response parsing
+    
+    ru:
+    cppbase:
+        > продолжение исправления разбора ответа на команду StartFsFiscalModeCloseCommand.
+
+
 commit 86fabefaac0e37e43cf33d8a4c0c591ddff366bd
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Wed Oct 31 14:14:34 2018 +0300
