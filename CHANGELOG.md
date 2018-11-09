@@ -1,3 +1,28 @@
+commit ac7dadcf4dfaf0d9d72becfd3c34ec8cbc79465d
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Thu Nov 8 23:53:17 2018 +0300
+
+    en:
+    cppbase:
+      > fix deviceToURI format(deprecated byte_timeout cleanup continues)
+    console_test:
+      > add z-report command
+      > read, save-tables commands add optional args in form table[.row[.field]]
+    examples:
+      > add dfu update example in windows batch format
+      > fix dfu_update bash example
+    
+    ru:
+    cppbase:
+      > исправлено форматирование URI deviceToURI
+    console_test:
+      > добавлена команда z-report (закрытие смены)
+      > в команды read и save-tables можно передавать опциональные аргументы в формате table[.row[.field]]
+    examples:
+      > добавлен пример обновления по dfu в формате .bat под windows
+      > поправлен пример dfu_update на bash
+
+
 commit aee135f02c632cfe9ac5d738b95fc35092fcd4bd
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Thu Nov 1 17:27:31 2018 +0300
