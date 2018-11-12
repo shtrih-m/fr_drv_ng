@@ -1,3 +1,30 @@
+commit c4d0d07411eeae655833a3255f972a11c4c92096
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Mon Nov 12 11:42:06 2018 +0300
+
+    en:
+    console_test:
+      > COM port discover timeout 500->1000ms
+    cppbase:
+      > fix device discoverer on windows with msvc
+      > fix log prefix strip on winndows with msvc
+      > TCP and Serial IoLayer now implemented using boost asio
+    cppbase_test:
+      > use asio standalone
+      > add asio include
+    
+    ru:
+    console_test:
+      > Таймаут сканирования COM портов увеличен 500->1000ms на порт
+    cppbase:
+      > поправлено сканирование портов на windows msvc
+      > поправлено обрезание префикса логгера на windows msvc
+      > TCP и Serial IoLayer теперь используют boost asio
+    cppbase_test:
+      > use asio standalone
+      > add asio include
+
+
 commit ac7dadcf4dfaf0d9d72becfd3c34ec8cbc79465d
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Thu Nov 8 23:53:17 2018 +0300
