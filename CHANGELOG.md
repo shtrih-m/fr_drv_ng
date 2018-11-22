@@ -1,3 +1,54 @@
+commit a4b5e5fa71e337b192b90f3a734d1917582ab496
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Mon Nov 19 12:13:08 2018 +0300
+
+    en:
+    console_test:
+      > fix optional args + parameters eq: save-tables -a "tcp:..."
+    
+    ru:
+    console_test:
+      > поправлена обработка опциональных параметров команды вместе с - аргументами
+
+commit ba1e0e6fcc2dabd99e7434b6356e0230bb0db7f3
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Mon Nov 19 11:03:28 2018 +0300
+
+    en:
+    CI:
+      android: build qclassic wrapper
+      all: enable LTO(link time optimisation) for shared libraries builds
+    classic:
+      > DefConnectionTimeout now equals to DefTimeout
+      > WaitForPrinting continue the loop if submode 4 or 5
+      > implemented ResetECR
+    console_test:
+      > add state-reset command
+      > enable LTO for dynamic/static builds
+    cppbase:
+      > remove GCC Android specific code
+      > fix alignedString font bounds check
+      > getIoFromString print URI
+      > localizer update
+    
+    ru:
+    CI:
+      android: сборка включает qclassic обёртку
+      all: включен LTO(link time optimisation) для динамических сборок
+    classic:
+      > DefConnectionTimeout теперь равен DefTimeout
+      > поправлен метод WaitForPrinting ожидает завершения печати если в подрежиме 4 или 5
+      > реализован метод ResetECR
+    console_test:
+      > добавлена команда state-reset
+      > включен LTO для динамических и статических сборок
+    cppbase:
+      > GCC специфичный код под Android удалён(собираем только с clang)
+      > поправлен метод alignedString теперь работает и с последним шрифтом
+      > getIoFromString добавлена печать текущего URI
+      > обновлен перевод
+
+
 commit c4d0d07411eeae655833a3255f972a11c4c92096
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Mon Nov 12 11:42:06 2018 +0300
