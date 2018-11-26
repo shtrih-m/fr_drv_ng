@@ -1,3 +1,41 @@
+commit 534f6057354c7aa4c6a9fad19dc9510c6b08fcaf
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Mon Nov 26 10:43:35 2018 +0300
+
+    en:
+    classic:
+      > replace fsDocTLVRead by common getFsDocumentByNumber
+    console_test:
+      > replace doReadTLVDoc by common getFsDocumentByNumber
+    cppbase:
+      > enable keepalive for TcpSocketIO
+      > improve TcpSocketIO,SerialIO - do not close on recoverable errors
+      > INTERPROCEDURAL_OPTIMIZATION only for Release builds
+      > add getFsDocumentByNumber
+    
+    ru:
+    classic:
+      > fsDocTLVRead->getFsDocumentByNumber
+    console_test:
+      > doReadTLVDoc->getFsDocumentByNumber
+    cppbase:
+      > включен keepalive для TcpSocketIO
+      > улучшены  TcpSocketIO, SerialIO - не закрывать IoLayer при не критических ошибках
+      > INTERPROCEDURAL_OPTIMIZATION только для релизных сборок
+      > добавлен метод getFsDocumentByNumber
+
+commit d1855759b9e5471da7cdd14a0aa8829a23654d34
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Sat Nov 24 15:17:25 2018 +0300
+
+    en:
+    classic:
+      > fix FNGetDocumentAsString on cashcore (https://github.com/shtrih-m/fr_drv_ng/issues/25)
+    
+    ru:
+    classic:
+      > поправлена работа метода FNGetDocumentAsString на Кассовом Ядре (https://github.com/shtrih-m/fr_drv_ng/issues/25)
+
 commit a4b5e5fa71e337b192b90f3a734d1917582ab496
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Mon Nov 19 12:13:08 2018 +0300
