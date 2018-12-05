@@ -1,3 +1,22 @@
+commit 186c0e38f327bd68bf57950eaf256ed32d3fa661
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Wed Dec 5 02:37:25 2018 +0300
+
+    en:
+    classic:
+      > fix OpenCheck for ELVES etc
+    cppbase:
+      > ProtocolV1 add ack_timeout support
+      > ProtocolV2 fix closed IOLayer loop
+    
+    ru:
+    classic:
+      > поправлен метод OpenCheck для ЭЛВЕС-МФ и других устройств с той же реализацией
+    cppbase:
+      > ProtocolV1 добавлена поддержка свойства ack_timeout
+      > ProtocolV2 поправлен цикл до таймаута, если транспортный уровень закрыт
+
+
 commit 534f6057354c7aa4c6a9fad19dc9510c6b08fcaf
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Mon Nov 26 10:43:35 2018 +0300
