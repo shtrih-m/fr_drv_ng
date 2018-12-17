@@ -1,3 +1,46 @@
+commit d70b96de5d4f4e05c78374d23fd2e530ca32e6dc
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Sun Dec 16 21:54:20 2018 +0300
+
+    en:
+    classic_java:
+      > update version number build.gradle
+    
+    ru:
+    classic_java:
+      > обновлена версия сборки
+
+commit ecc8c3f72e1a5ac086a422da252b0ef7351267b6 (tag: 1.4.4)
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Sun Dec 16 02:56:42 2018 +0300
+
+    en:
+    classic:
+      > update swig interface file
+      > Get\SetDeviceFunction implemented
+    classic_java:
+      > Get\SetDeviceFunction added
+    console_test:
+      > simplify printer creation
+    cppbase:
+      > update cdcacm IoLayer for android
+    examples:
+      > SetDeviceFunction example added
+    
+    ru:
+    classic:
+      > swig обновлен файл описания интерфейса
+      > Get\SetDeviceFunction добавлены
+    classic_java:
+      > Get\SetDeviceFunction добавлены
+    console_test:
+      > упрощено конструирование принтера
+    cppbase:
+      > обновлён cdcacm для android
+    examples:
+      > SetDeviceFunction пример добавлен
+
+
 commit 186c0e38f327bd68bf57950eaf256ed32d3fa661
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Wed Dec 5 02:37:25 2018 +0300
