@@ -1,3 +1,27 @@
+commit df2297b81f59dbbe01098c63b9c77af0db2f038b
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Jan 25 03:20:21 2019 +0300
+
+    en:
+    classic:
+      > fix swig python bindings interface file
+      > add named constructor, that name will be instance name in logs
+      > small fixes
+    qclassic:
+      > add named constructor, that name will be instance name in logs
+    cppbase:
+      > do not try to load properties on lastErrorDescription(cause we gona lose last error)
+    
+    ru:
+    classic:
+      > поправлены профиль swig для python
+      > в конструктор можно передать имя устройства. Это имя будет отображаться в логах
+      > small fixes
+    qclassic:
+      > в конструктор можно передать имя устройства. Это имя будет отображаться в логах
+    cppbase:
+      > не пытаться получить *последнюю* ошибку если неизвестно поддерживает принтер этот функционал или нет(потому что в таком случае уйдет состояние этой ошибки)
+
 commit d70b96de5d4f4e05c78374d23fd2e530ca32e6dc
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Sun Dec 16 21:54:20 2018 +0300
