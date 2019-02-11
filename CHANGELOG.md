@@ -1,3 +1,41 @@
+commit 069c3bffbd1e76dee18a72d70e32da0e3b8adb1e
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Mon Feb 11 14:47:21 2019 +0300
+
+    en:
+    classic:
+      > dont LTO on win
+      > setup.py fix for windows
+      > setup.py reformat
+    classic_java:
+      > add named classic constructor
+    cppbase:
+      > FDO sender service fix recv timeout
+      > fix build shared lib on windows
+    qclassic:
+      > correct exports on windows
+    CI:
+      > Qt upgrade to 5.12.1
+      > windows i386 build with VC2017
+    
+    ru:
+    classic:
+      > не использовать LTO в сборках под windows
+      > setup.py исправление для windows
+      > setup.py переформатирование
+    classic_java:
+      > добавлен конструктор с именем устройства
+    cppbase:
+      > Служба отправки в ОФД исправлен таймаут приёма
+      > корректная сборка разделяемых библиотек под windows
+    qclassic:
+      > исправлен экспорт интерфейса под windows
+    CI:
+      > Qt обновлен до 5.12.1
+      > i386 сборки под windows собираются VC2017
+
+
+
 commit df2297b81f59dbbe01098c63b9c77af0db2f038b
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Fri Jan 25 03:20:21 2019 +0300
