@@ -1,3 +1,23 @@
+commit 484ac43622fc42c874adc01e3fc273bd741a4fc4
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Sun Feb 17 21:12:19 2019 +0300
+
+    en:
+    console_test:
+      > add fs-get-eol command
+      > fs-status output detailed warning flags
+    cppbase:
+      > add FR_DRV_LANG env variable - forces messages localization. Valid values are: ru/en
+    
+    ru:
+    console_test:
+      > добавлена команда fs-get-eol - окончание срока действия ФН
+      > в вывод команды fs-status добавлена детализация флагов предупреждений ФН
+    cppbase:
+      > добавлена обработка переменной окружения FR_DRV_LANG - принудительно меняет локализацию сообщений драйвера. Возможные значения ru/en
+
+
+
 commit 069c3bffbd1e76dee18a72d70e32da0e3b8adb1e
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Mon Feb 11 14:47:21 2019 +0300
