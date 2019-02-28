@@ -1,3 +1,28 @@
+commit 0eff1614634bdf155ecb0553efe426ad4455d749
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Thu Feb 28 01:12:49 2019 +0300
+
+    en:
+    classic:
+      > implemented OFDExchange
+      > AutoEoD now uses OFDPollPeriod
+      > AutoOFDExchange mirrors AutoEoD property
+      > Property setters now not calling property changed callback
+    cppbase:
+      > FDOSenderService add customizable poll period
+      > dont wait timeout for data on tcpsocket close(speedup "broken" connections closing)
+    
+    ru:
+    classic:
+      > реализован метод OFDExchange
+      > AutoEoD теперь использует свойство OFDPollPeriod
+      > AutoOFDExchange дублирует свойство AutoEoD
+      > Сеттеры теперь не вызывают обратный вызов "свойство изменено"
+    cppbase:
+      > FDOSenderService настраиваемый промежуток между посылками
+      > Не ждать данных весь таймаут при закрытии tcp сокета(быстрее закрывает сокет если соединение установлено,но той стороны не приходят данные)
+
+
 commit 484ac43622fc42c874adc01e3fc273bd741a4fc4
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Sun Feb 17 21:12:19 2019 +0300
