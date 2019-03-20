@@ -1,3 +1,30 @@
+commit 041e728c2abe9b6a97859675d06f04bf807acab8
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Wed Mar 20 00:57:25 2019 +0300
+
+    en:
+    ci:
+      > android: use llvm linker, NDK r19c
+    classic:
+      > fix toTimePoint
+      > SkipPrint restored
+      > doc: table view improved
+      > improved doc for properties DriverMajorVersion, DriverMinorVersion, DriverRelease, DriverBuild, ModelParamValue, ModelParamNumber, ModelParamDescription, DriverVersion, ErrorCode, EmailAddress, ConnectionURI
+    cppbase:
+      > update asio
+    
+    ru:
+    ci:
+      > android: используется линкер от llvm, NDK r19c
+    classic:
+      > поправлен метод toTimePoint
+      > Восстановлено забытое свойство SkipPrint
+      > Комментарии для документации: улучшен внешний вид всех таблиц.
+      > Изменения в комментариях к свойствам DriverMajorVersion, DriverMinorVersion, DriverRelease, DriverBuild, ModelParamValue, ModelParamNumber, ModelParamDescription, DriverVersion, ErrorCode, EmailAddress, ConnectionURI
+    cppbase:
+      > обновлен asio
+
+
 commit 0eff1614634bdf155ecb0553efe426ad4455d749
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Thu Feb 28 01:12:49 2019 +0300
