@@ -1,3 +1,25 @@
+commit ec19fc4f2555b93b1de21ade95200b3a2bbe1a96
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Thu Apr 18 16:13:30 2019 +0300
+
+    en:
+    classic:
+      > do not check for MarkingType in FNSendItemCodeData
+      > doc update
+      > localization initialization from dynamic link time to instance initialization
+    classic_test:
+      > add ItemCodeData test.
+    
+    ru:
+    classic:
+      > добавлена возможность передавать КТН для любого типа маркировки.
+      > doc: дополнена документация.
+      > инициализация локали происходит не в момент динамической линковки, а в момент первой инициализации драйвера
+    classic_test:
+      > добавлен тест для КТН.
+
+
+
 commit 041e728c2abe9b6a97859675d06f04bf807acab8
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Wed Mar 20 00:57:25 2019 +0300
