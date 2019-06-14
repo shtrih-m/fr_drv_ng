@@ -1,3 +1,20 @@
+commit d2f7ef1222dc4f71d64446e279f9e51b26b3b375
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Jun 14 02:50:54 2019 +0300
+
+    en:
+    console_test:
+      > add beep cmd
+    qclassic:
+      > add missing functionality of Get/SetDeviceFunction, and related properties
+    
+    ru:
+    console_test:
+      > добавлена команда звука - beep
+    qclassic:
+      > добавлены обертки для функций Get/SetDeviceFunction и свойства, используемые ими
+
+
 commit ec19fc4f2555b93b1de21ade95200b3a2bbe1a96
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Thu Apr 18 16:13:30 2019 +0300
