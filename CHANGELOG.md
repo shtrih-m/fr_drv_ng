@@ -1,3 +1,30 @@
+commit 5148ca7f0c31ba77f90c45b99a69a244a57bce4d
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Thu Jul 25 01:55:13 2019 +0300
+
+    en:
+    classic:
+      > fix https://git.shtrih-m.ru/fr_drv_ng/public_issues/issues/93
+      > Print2DBarcode support DelayedPrint
+      > implemented LoadGraphics512
+      > implemented PrintGraphics512
+    cppbase:
+      > update submodules
+    cppbase:
+      > update tests
+    
+    ru:
+    classic:
+      > поправлено https://git.shtrih-m.ru/fr_drv_ng/public_issues/issues/93
+      > Print2DBarcode поддержка флага DelayedPrint
+      > реализация LoadGraphics512
+      > реализация PrintGraphics512
+    cppbase:
+      > обновлены библиотеки
+    cppbase:
+      > обновлены тесты
+
+
 commit d2f7ef1222dc4f71d64446e279f9e51b26b3b375
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Fri Jun 14 02:50:54 2019 +0300
