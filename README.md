@@ -9,6 +9,8 @@
   * Windows XP и выше
   * Linux
   * Android
+  * MacOS Mohave и выше
+  * iOS 9.0 и выше
 
   ## Скачать 
   Cборка и тестирование осуществляется в CI проекта. Релизы выкладываются на [github](https://github.com/shtrih-m/fr_drv_ng/releases)  
@@ -17,6 +19,8 @@
   * **fr_drv_ng_linux_**$ARCH - сборки под Linux
   * **fr_drv_ng_linux_i486_ok** - сборка под старые ядра Linux(гарантирована работа на 2.6.32, собрано с glibc 2.23)
   * **fr_drv_ng_windows_**$ARCH - сборки под Windows
+  * **fr_drv_ng_darwin_x86_64** - сборка под MacOS
+  * **fr_drv_ng_iOS_multarch** - сборка под iOS
 
   ### Содержимое сборок:
   #### Во всех сборках под ОС находятся нативные файлы библиотек(статические и динамические сборки):

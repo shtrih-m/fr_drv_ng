@@ -1,3 +1,24 @@
+commit 534723950df2688184abe4c2506719825a27df65
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Aug 23 17:13:14 2019 +0300
+
+    en:
+    ci:
+      > add iOS and MacOS builds
+    classic:
+      > fix: SerialIO baudrate speed in FindDevice
+    cppbase:
+      > ios, macos support
+
+    ru:
+    ci:
+      > сборки под iOS и MacOS
+    classic:
+      > fix: поправлена установка скорости SerialIO в FindDevice
+    cppbase:
+      > ios, macos поддержка
+
+
 commit 5148ca7f0c31ba77f90c45b99a69a244a57bce4d
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Thu Jul 25 01:55:13 2019 +0300
