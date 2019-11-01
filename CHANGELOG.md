@@ -1,3 +1,38 @@
+commit 86c82da6a1a720455c1b26bd31c9f5d67f0b9d38
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Nov 1 15:38:34 2019 +0300
+
+    en:
+    classic:
+      > update cppbase linkage
+    classic_test:
+      > update cppbase linkage
+    console_test:
+      > update cppbase linkage
+    cppbase:
+      > update spdlog, fmt, Catch2 submodules
+    console_test:
+      > restore table input parsing fixed
+      > update cppbase linkage
+    ci:
+      > android x86_64 build added
+    
+    ru:
+    classic:
+      > обновлен cppbase
+    classic_test:
+      > обновлен cppbase
+    console_test:
+      > обновлен cppbase
+    cppbase:
+      > обновлены библиотеки spdlog, fmtlib, Catch2
+    console_test:
+      > поправлена команда restore table
+      > обновлен cppbase
+    ci:
+      > добавлена сборка под x86_64 под android
+
+
 commit 534723950df2688184abe4c2506719825a27df65
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Fri Aug 23 17:13:14 2019 +0300
