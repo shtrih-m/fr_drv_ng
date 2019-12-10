@@ -1,3 +1,28 @@
+commit 2e7c7ab23b19c39396a2963106b69a2c8a5d8381
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Tue Dec 10 11:46:13 2019 +0300
+
+    en:
+    cppbase:
+      > check iolayer->opened in protocol doConnect routine
+      > fix isTimeoutHappend in TimeoutUtil
+      > asiolayer: improve error reporting
+    cppbase_test:
+      > new protocol tests new logger tests
+    one_s:
+      > Native API plugin for 1C WIP
+    
+    ru:
+    cppbase:
+      > проверяем что транспорт открыт(iolayer->opened) при инициализации протокола
+      > поправлен isTimeoutHappend в TimeoutUtil
+      > asiolayer: улучшено логгирование ошибок
+    cppbase_test:
+      > обновлены тесты для протоколов и логгирования
+    one_s:
+      > Native API плагин для 1C в разработке
+
+
 commit 86c82da6a1a720455c1b26bd31c9f5d67f0b9d38
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Fri Nov 1 15:38:34 2019 +0300
