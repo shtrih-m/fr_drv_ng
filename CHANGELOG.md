@@ -1,3 +1,50 @@
+commit b65de50b6f7d3bdfc5f7112a3ee6249d99bf877b
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Feb 21 15:39:48 2020 +0300
+
+    en:
+    cppbase:
+      > log and error in case of input command code not equal to output(sent) code
+      > fix FDOSender warning message
+      > command 0xFF67 "assign mark to position" added.
+      > tag 1162 construction rules changed to comply ФНС 434
+    cppbase_test:
+      > test AssignMarkCommand
+    examples:
+      > assing marks examples.
+      > android example, upgrade native libs and jar wrapper
+    classic:
+      > add method FNSendItemBarcode
+      > add EnableCashcoreMarkCompatibility property
+      > update docs
+    classic_test:
+      > test marking commands
+    qclassic:
+      > add method FNSendItemBarcode
+      > add EnableCashcoreMarkCompatibility property
+    
+    ru:
+    cppbase:
+      > логгировать и сообщать ошибку в случае если код входящей команды отличается от отправленной
+      > поправлены сообщения FDOSender
+      > добавлена команда 0xFF67 "Привязать марку к позиции"
+      > изменены правила формирования тега 1162 в соответствии с приказом ФНС 434.
+    cppbase_test:
+      > тесты "Привязать марку к позиции"
+    examples:
+      > добавлены примеры привязки марки к позиции
+      > обновлены библиотеки в примере android
+    classic:
+      > добавлен метод FNSendItemBarcode
+      > добавлено свойство EnableCashcoreMarkCompatibility
+      > обновлена документация
+    classic_test:
+      > тест FNSendItemBarcode
+    qclassic:
+      > добавлен метод FNSendItemBarcode
+      > добавлено свойство EnableCashcoreMarkCompatibility
+
+
 commit 2e7c7ab23b19c39396a2963106b69a2c8a5d8381
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Tue Dec 10 11:46:13 2019 +0300
