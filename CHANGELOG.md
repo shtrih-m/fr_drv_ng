@@ -1,3 +1,43 @@
+commit 7f67cd453d22a83cc1577cfec1cbdec2e4d69ede
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Wed Apr 15 19:01:24 2020 +0300
+
+    en:
+    added 1C linux/windows native api driver
+    cmake refactoring move to 'modern' cmake
+    ci:
+      > exclude cppbase from build artifacts
+      > make 1c deploy package
+    cppbase:
+      > ProtocolV1 improvements
+      > builds are always static
+    classic:
+      > fix https://github.com/shtrih-m/fr_drv_ng/issues/101
+      > python's setup.py don't depend on cppbase
+      > default ComPath now OS related(linux and windows)
+    one_s:
+      > first public release
+      > support driver development requirements 3.2
+    
+    ru:
+    добавлен NativeAPI драйвер 1C для linux/windows
+    cmake рефакторинг, переход на "современный" cmake
+    ci:
+      > исключить cppbase из артефактов сборок
+      > собирать 1c архив
+    cppbase:
+      > улучшения в протоколе версии 1
+      > библиотека всегда статическая
+    classic:
+      > исправлено https://github.com/shtrih-m/fr_drv_ng/issues/101
+      > python's setup.py не зависит от cppbase
+      > свойство ComPath по умолчанию теперь зависит от ОС (linux and windows)
+    one_s:
+      > первый публичный релиз
+      > поддерживает требования к разработке драйверов 3.2
+
+
+
 commit b65de50b6f7d3bdfc5f7112a3ee6249d99bf877b
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Fri Feb 21 15:39:48 2020 +0300
