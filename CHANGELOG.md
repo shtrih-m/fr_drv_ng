@@ -1,3 +1,16 @@
+commit 852bf722a884af66e7f9815ae1ecd2f2f1dc114b
+Author: olefard <olefard@shtrih-m.ru>
+Date:   Thu Apr 16 12:38:28 2020 +0300
+
+    en:
+    one_s:
+      > fix error on driver description request
+    
+    ru:
+    one_s:
+      > исправлена ошибка при выдаче информации о драйвере.
+
+
 commit 7f67cd453d22a83cc1577cfec1cbdec2e4d69ede
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Wed Apr 15 19:01:24 2020 +0300
