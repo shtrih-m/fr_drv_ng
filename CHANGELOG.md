@@ -1,3 +1,30 @@
+commit 235484c7fb8d413aae1f2e4c9360429b7a115617
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Apr 17 19:22:40 2020 +0300
+
+    en:
+    classic:
+      > fill MarkingType and MarkingTypeEx properties in FNSendItemBarcode
+      > add MarkingTypeEx property
+    classic_java:
+      > add MarkingTypeEx property
+    cppbase:
+      > fix AssignMarkCommand
+    qclassic:
+      > add MarkingTypeEx property
+    
+    ru:
+    classic:
+      > заполнять свойства MarkingType и MarkingTypeEx в команде FNSendItemBarcode
+      > добавлено свойство MarkingTypeEx
+    classic_java:
+      > добавлено свойство MarkingTypeEx
+    cppbase:
+      > поправлен возврат от команды AssignMarkCommand(Привязка  маркированного товара к позиции FF67)
+    qclassic:
+      > добавлено свойство MarkingTypeEx
+
+
 commit 852bf722a884af66e7f9815ae1ecd2f2f1dc114b
 Author: olefard <olefard@shtrih-m.ru>
 Date:   Thu Apr 16 12:38:28 2020 +0300
