@@ -1,3 +1,23 @@
+commit 04d918547d234af02f534a774d9435edd4250422
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Tue Apr 28 22:40:19 2020 +0300
+
+    en:
+    classic:
+      > update FNSendItemBarcode doc
+    cppbase:
+      > fix FF67 item code field endiannes
+    cppbase_test:
+      > fixed FF67 tests
+    
+    ru:
+    classic:
+      > обновлена документация FNSendItemBarcode
+    cppbase:
+      > поправлен порядок байт в поле код товара в команде FF67
+    cppbase_test:
+      > поправлены тесты FF67
+
 commit 235484c7fb8d413aae1f2e4c9360429b7a115617
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Fri Apr 17 19:22:40 2020 +0300
