@@ -1,3 +1,49 @@
+commit d159cc759bb3c2b45e626fbc37ac94fe8a88c7d8
+Author: olefard <olefard@shtrih-m.ru>
+Date:   Wed May 27 13:21:01 2020 +0300
+    
+    en:
+    classic:
+      > improved autofetch detailed error description
+      > log detailed error description if supported
+      > check if detailed error description supported when turned on
+    ru:
+    classic:
+      > доработан автозапрос подробного описания ошибки.
+      > Подробное описание ошибки, если доступно, выводится в лог.
+      > При включении автозапроса делается проверка поддержки команды "Запрос описания последней ошибки"
+
+commit 64bf8690c478ff1fdc5677d9a5db81e2e1c95851
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Wed May 27 02:56:45 2020 +0300
+
+    en:
+    classic:
+      > cmake: generate swig wrapper while building
+      > new function added DFE_DataPresentation, to control FiscalStorage document representation
+    classic_java:
+      > synchronize versions between classic and classic_java
+    cppbase:
+      > JSON document format added
+    qclassic:
+      > update header
+    cmake:
+      > generate java wrappers while building
+    
+    ru:
+    classic:
+      > cmake: генерировать swig обертки во время сборки
+      > добавлена новая функция DFE_DataPresentation, задающая представление документа получаемого из ФН.
+    classic_java:
+      > синхронизированы версии между classic и оберткой
+    cppbase:
+      > добавлен формат JSON документа из тегов
+    qclassic:
+      > обновлен заголовочный файл
+    cmake:
+      > генерировать java обертки во время сборки
+
+
 commit 04d918547d234af02f534a774d9435edd4250422
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Tue Apr 28 22:40:19 2020 +0300
