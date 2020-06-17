@@ -1,3 +1,22 @@
+commit abfb92588c408a0f0ef7389605c4b6050ef634df
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Wed Jun 17 18:17:34 2020 +0300
+
+    en:
+    cppbase:
+      > fix: fixed tag 1162 construction for EAN-13 marking type.
+      > Tables cache util resend command if FP_FP_IS_PRINTING_PREVIOUS_COMMAND
+    cppbase_test:
+      > update 1162 tests.
+    
+    ru:
+    cppbase:
+      > fix: исправлено создание тега 1162 для маркирвоки EAN-13.
+      > Кеш таблиц, переповтор команды если FP_FP_IS_PRINTING_PREVIOUS_COMMAND
+    cppbase_test:
+      > обновлены тесты для кодирования тега 1162.
+
+
 commit d159cc759bb3c2b45e626fbc37ac94fe8a88c7d8
 Author: olefard <olefard@shtrih-m.ru>
 Date:   Wed May 27 13:21:01 2020 +0300
