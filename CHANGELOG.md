@@ -1,3 +1,36 @@
+commit 7f7f651ab85cd41d303bf0313d5277d77421a22f
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Aug 14 05:56:19 2020 +0300
+
+    en:
+    classic:
+      > add size padding for some String tags
+    cppbase:
+      > update taginfo add StringTLV taginfo factory method
+      > FFD 1.2 WIP add commands FF68, FF70
+    cppbase_test:
+      > add tests for taginfo, TLV
+      > fix maxDrawLineWidth512 == 0 as in cashcore
+      > fix F7 font params for cashcore
+    ci:
+      > revert build configuration for linux(glibc 2.27, gcc 8.4)
+      > new build env for linux and android
+    
+    ru:
+    classic:
+      > некоторые строковые теги автоматически дополняются до требуемого размера(все ИНН теги, заводской номер, код страны)
+    cppbase:
+      > обновлена таблица тегов, добавлен фабричный метод для StringTLV
+      > ФФД 1.2 WIP добавлены команды FF68, FF70
+      > поправлено получение параметра maxDrawLineWidth512 для КЯ
+      > поправлено получения параметров шрифтов для КЯ
+    cppbase_test:
+      > добавлены тесты для таблицы тегов и TLV
+    ci:
+      > возвращена конфигурация сборок для linux(glibc 2.27 и gcc 8.4)
+      > новое сборочное окружение для linux и android
+
+
 commit abfb92588c408a0f0ef7389605c4b6050ef634df
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Wed Jun 17 18:17:34 2020 +0300
