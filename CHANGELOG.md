@@ -1,3 +1,20 @@
+commit c597fb2f006f0c20513a9830417b037122f5bbca
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Thu Aug 20 12:44:49 2020 +0300
+
+    en:
+    cppbase:
+      > loadImage: choose image buffer automatically based on device support
+    classic:
+      > fix LoadImage on cashcore
+    
+    ru:
+    cppbase:
+      > loadImage: автоматически выбирается графический буфер в зависимости от устройств
+    classic:
+      > поправлена работа LoadImage на КЯ
+
+
 commit 7f7f651ab85cd41d303bf0313d5277d77421a22f
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Fri Aug 14 05:56:19 2020 +0300
