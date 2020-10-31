@@ -1,3 +1,23 @@
+commit d7ee9cd28375570eef95943cf459f7dafd7d5089
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Sat Oct 31 17:10:30 2020 +0300
+
+    en:
+    classic:
+      > plain C wrapper for classic_interface
+    cppbase:
+      > use default props if F7 || fonts not available
+    ci:
+      > add c_classic_interface.h to artefacts
+    
+    ru:
+    classic:
+      > C обертка вокруг classic_interface
+    cppbase:
+      > если в реализации отсутствует команда F7 или параметры шрифта - используются параметры по умолчанию.
+    ci:
+      > к артефактам добавлен c_classic_interface.h
+
 commit c597fb2f006f0c20513a9830417b037122f5bbca
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Thu Aug 20 12:44:49 2020 +0300
