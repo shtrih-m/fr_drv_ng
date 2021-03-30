@@ -1,3 +1,26 @@
+commit 54537cb848875b59403646ea9c91cc8a2b103890
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Tue Mar 30 01:20:25 2021 +0300
+
+    en:
+    classic:
+      > FFD 1.2 commands, see classic_interface.h
+    cppbase:
+      > FFD 1.2 commands
+      > Plain transfer mode for ProtocolV1
+    console_test:
+      > commands added: remote-firmware-version, remote-firmware-date, download-firmware
+    
+    ru:
+    classic:
+      > поддержка ФФД 1.2, см. classic_interface.h
+    cppbase:
+      > поддержка ФФД 1.2
+      > Режим "чистой" передачи для стандартного протокола
+    console_test:
+      > добавлены команды: remote-firmware-version, remote-firmware-date, download-firmware
+
+
 commit d7ee9cd28375570eef95943cf459f7dafd7d5089
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Sat Oct 31 17:10:30 2020 +0300
