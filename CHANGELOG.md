@@ -1,3 +1,28 @@
+commit 97415ba398eaa186e4cc1ffd4e24868d76ee8f1a
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Mon Apr 19 05:08:12 2021 +0300
+
+    en:
+    cppbase:
+        > fix TLV parser. It turns out is ок to have TLV of with LEN == 0
+    
+    ru:
+    cppbase:
+        > исправлен разбор TLV. Оказалось это нормально иметь TLV с LEN == 0
+
+commit 72863e283a9022c800492b9e52ab2d0bf53b7899
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Fri Apr 9 09:48:08 2021 +0300
+
+    en:
+    classic:
+      > implement ReadLoaderVersion command
+    
+    ru:
+    classic:
+      > реализована команда ReadLoaderVersion
+
+
 commit 54537cb848875b59403646ea9c91cc8a2b103890
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Tue Mar 30 01:20:25 2021 +0300
