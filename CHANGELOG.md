@@ -1,3 +1,77 @@
+commit 91fd137e0170d0dc7c8d6f35eb363f6901223c80
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Thu Jun 10 01:52:03 2021 +0300
+
+    en:
+    classic:
+        > FNOperation force Quantity to 1 if DivisionalQuantity
+    android_util_java:
+      > BtLEHelper
+      > StaticContext
+    cppbase:
+      > add btle bluetooth low energy (currently only for android)
+
+    ru:
+    > FNOperation выставляет Quantity в 1 если DivisionalQuantity не 0
+    android_util_java:
+      > добавлены класс BtLEHelper
+      > добавлен класс StaticContext
+    cppbase:
+      > новая схема для транспорта: btle - bluetooth low energy (на данный момент только для android)
+
+commit 48322e9052f918a3d929da657d8256d063f1fd40
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Tue Jun 1 20:09:39 2021 +0300
+
+    en:
+    classic:
+      > fix FNAcceptMakringCode typo(added FNAcceptMarkingCode)
+      > add FNBeginReadArchive, FNReadArchiveItem, FNSaveArchive
+      > add FNMarkingClearBuffer
+      > update ResetECR for interrupted FSReadDocument
+      > add FNCheckItemBarcode2
+    classic_java:
+      > mirror current classic API
+    console_test:
+      > add fs-archive command
+      > updated state-reset implementation
+      > add fs-version command
+      > add fs-parse-doc-classic
+      > add fs-parse-doc-json
+      > fixed write command documentation
+    cppbase:
+      > fix ByteArrayTLV::text
+      > update UnixTimeTLV::text
+    cppbase:
+      > update tests
+    qclassic:
+      > mirror current classic API
+    
+    ru:
+    classic:
+      > поправлена опечатка в названии метода FNAcceptMakringCode (добавлен метод FNAcceptMarkingCode)
+      > добавлены FNBeginReadArchive, FNReadArchiveItem, FNSaveArchive
+      > добавлен FNMarkingClearBuffer
+      > ResetECR теперь сбрасывает состояние в случае прерванного получения документа из ФН
+      > добавлен FNCheckItemBarcode2
+    classic_java:
+      > добавлены текущие методы classic API
+    console_test:
+      > add fs-archive command
+      > updated state-reset implementation
+      > add fs-version command
+      > add fs-parse-doc-classic
+      > add fs-parse-doc-json
+      > fixed write command documentation
+    cppbase:
+      > поправлен ByteArrayTLV::text
+      > обновлен UnixTimeTLV::text
+    cppbase:
+      > обновлены тесты
+    qclassic:
+      > добавлены текущие методы classic API
+
+
 commit 97415ba398eaa186e4cc1ffd4e24868d76ee8f1a
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Mon Apr 19 05:08:12 2021 +0300
