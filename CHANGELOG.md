@@ -1,3 +1,21 @@
+commit fc65de41e4e7caf8e59671c3ac814774d83f6b94 (HEAD -> master, origin/master, origin/HEAD)
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Tue Jun 29 02:28:10 2021 +0300
+
+    en:
+    console:
+      > added mc-exchange-status
+      > added mc-check-status
+      > added fs-exchange-status as an alias for exchange-status
+      > reordered commands help by groups
+    
+    ru:
+    console:
+      > добавлена команда mc-exchange-status
+      > добавлена команда mc-check-status
+      > команда fs-exchange-status как псевдоним для exchange-status
+      > команды в справке сортированы по группам
+
 commit 91fd137e0170d0dc7c8d6f35eb363f6901223c80
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Thu Jun 10 01:52:03 2021 +0300
