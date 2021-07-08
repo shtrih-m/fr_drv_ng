@@ -1,3 +1,23 @@
+commit 182e6f02521f4048de6bfebcc23032d4e617ff45
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Wed Jul 7 19:40:16 2021 +0300
+
+    en:
+    classic
+      > add optional C# and Go wrapper libraries
+      > update swig classic_interface.i for csharp
+    cppbase:
+      > fix time_t convertion
+      > removed jniutil
+    
+    ru:
+    classic
+      > добавлена опциональная сборка оберток для C# и Go
+      > обновлен classic_interface.i
+    cppbase:
+      > поправлено преобразование time_t
+      > удален jniutil
+
 commit fc65de41e4e7caf8e59671c3ac814774d83f6b94 (HEAD -> master, origin/master, origin/HEAD)
 Author: Alexey Mednyy <swexru@gmail.com>
 Date:   Tue Jun 29 02:28:10 2021 +0300
