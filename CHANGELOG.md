@@ -1,5 +1,43 @@
+commit a11ab039fe0de098793390a8c33ae57d8062a462
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Tue Aug 24 18:30:32 2021 +0300
+
+    en:
+    classic:
+      > FNFindDocument FFD 1.2 support.
+    cppbase:
+      > fixed FF0A "FN find document" response for FFD 1.2
+    
+    ru:
+    classic:
+      > приведен метод FNFindDocument в соответствии с ФФД 1.2.
+    cppbase:
+      > исправлена обработка ответа на команду FF0A "Найти документ по номеру" для ФФД 1.2.
+
+commit 97e6fc1eedc9d7a32b9769cc7ef065a5477f1c6e
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Tue Aug 24 04:33:28 2021 +0300
+
+    en:
+    classic:
+      > FFD 1.2 properties properly filled in FNGetFiscalizationResult, FNGetFiscalizationResultByNumber.
+    console_test:
+      > added comman kkt-reg-result - get registration parameters
+    cppbase:
+      > fixed minutes in KKT time convertion
+      > FFD 1.2 fixed for FF09 "Get registration parameters".
+    
+    ru:
+    classic:
+      > добавлено обновление свойств ФФД 1.2 в методах FNGetFiscalizationResult и FNGetFiscalizationResultByNumber.
+    console_test:
+      > добавлена команда kkt-reg-result - запрос параметров фискализации.
+    cppbase:
+      > исправлено получение минут из ответа ФРа.
+      > добавлен разбор ответа в формате ФФД 1.2 для команды FF09 "Запрос параметров фискализации".
+
 commit 182e6f02521f4048de6bfebcc23032d4e617ff45
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Jul 7 19:40:16 2021 +0300
 
     en:
@@ -19,7 +57,7 @@ Date:   Wed Jul 7 19:40:16 2021 +0300
       > удален jniutil
 
 commit fc65de41e4e7caf8e59671c3ac814774d83f6b94 (HEAD -> master, origin/master, origin/HEAD)
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Jun 29 02:28:10 2021 +0300
 
     en:
@@ -37,7 +75,7 @@ Date:   Tue Jun 29 02:28:10 2021 +0300
       > команды в справке сортированы по группам
 
 commit 91fd137e0170d0dc7c8d6f35eb363f6901223c80
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Jun 10 01:52:03 2021 +0300
 
     en:
@@ -58,7 +96,7 @@ Date:   Thu Jun 10 01:52:03 2021 +0300
       > новая схема для транспорта: btle - bluetooth low energy (на данный момент только для android)
 
 commit 48322e9052f918a3d929da657d8256d063f1fd40
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Jun 1 20:09:39 2021 +0300
 
     en:
@@ -111,7 +149,7 @@ Date:   Tue Jun 1 20:09:39 2021 +0300
 
 
 commit 97415ba398eaa186e4cc1ffd4e24868d76ee8f1a
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Apr 19 05:08:12 2021 +0300
 
     en:
@@ -123,7 +161,7 @@ Date:   Mon Apr 19 05:08:12 2021 +0300
         > исправлен разбор TLV. Оказалось это нормально иметь TLV с LEN == 0
 
 commit 72863e283a9022c800492b9e52ab2d0bf53b7899
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Apr 9 09:48:08 2021 +0300
 
     en:
@@ -136,7 +174,7 @@ Date:   Fri Apr 9 09:48:08 2021 +0300
 
 
 commit 54537cb848875b59403646ea9c91cc8a2b103890
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Mar 30 01:20:25 2021 +0300
 
     en:
@@ -159,7 +197,7 @@ Date:   Tue Mar 30 01:20:25 2021 +0300
 
 
 commit d7ee9cd28375570eef95943cf459f7dafd7d5089
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Sat Oct 31 17:10:30 2020 +0300
 
     en:
@@ -179,7 +217,7 @@ Date:   Sat Oct 31 17:10:30 2020 +0300
       > к артефактам добавлен c_classic_interface.h
 
 commit c597fb2f006f0c20513a9830417b037122f5bbca
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Aug 20 12:44:49 2020 +0300
 
     en:
@@ -196,7 +234,7 @@ Date:   Thu Aug 20 12:44:49 2020 +0300
 
 
 commit 7f7f651ab85cd41d303bf0313d5277d77421a22f
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Aug 14 05:56:19 2020 +0300
 
     en:
@@ -229,7 +267,7 @@ Date:   Fri Aug 14 05:56:19 2020 +0300
 
 
 commit abfb92588c408a0f0ef7389605c4b6050ef634df
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Jun 17 18:17:34 2020 +0300
 
     en:
@@ -263,7 +301,7 @@ Date:   Wed May 27 13:21:01 2020 +0300
       > При включении автозапроса делается проверка поддержки команды "Запрос описания последней ошибки"
 
 commit 64bf8690c478ff1fdc5677d9a5db81e2e1c95851
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed May 27 02:56:45 2020 +0300
 
     en:
@@ -294,7 +332,7 @@ Date:   Wed May 27 02:56:45 2020 +0300
 
 
 commit 04d918547d234af02f534a774d9435edd4250422
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Apr 28 22:40:19 2020 +0300
 
     en:
@@ -314,7 +352,7 @@ Date:   Tue Apr 28 22:40:19 2020 +0300
       > поправлены тесты FF67
 
 commit 235484c7fb8d413aae1f2e4c9360429b7a115617
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Apr 17 19:22:40 2020 +0300
 
     en:
@@ -354,7 +392,7 @@ Date:   Thu Apr 16 12:38:28 2020 +0300
 
 
 commit 7f67cd453d22a83cc1577cfec1cbdec2e4d69ede
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Apr 15 19:01:24 2020 +0300
 
     en:
@@ -394,7 +432,7 @@ Date:   Wed Apr 15 19:01:24 2020 +0300
 
 
 commit b65de50b6f7d3bdfc5f7112a3ee6249d99bf877b
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Feb 21 15:39:48 2020 +0300
 
     en:
@@ -441,7 +479,7 @@ Date:   Fri Feb 21 15:39:48 2020 +0300
 
 
 commit 2e7c7ab23b19c39396a2963106b69a2c8a5d8381
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Dec 10 11:46:13 2019 +0300
 
     en:
@@ -466,7 +504,7 @@ Date:   Tue Dec 10 11:46:13 2019 +0300
 
 
 commit 86c82da6a1a720455c1b26bd31c9f5d67f0b9d38
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Nov 1 15:38:34 2019 +0300
 
     en:
@@ -501,7 +539,7 @@ Date:   Fri Nov 1 15:38:34 2019 +0300
 
 
 commit 534723950df2688184abe4c2506719825a27df65
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Aug 23 17:13:14 2019 +0300
 
     en:
@@ -522,7 +560,7 @@ Date:   Fri Aug 23 17:13:14 2019 +0300
 
 
 commit 5148ca7f0c31ba77f90c45b99a69a244a57bce4d
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Jul 25 01:55:13 2019 +0300
 
     en:
@@ -549,7 +587,7 @@ Date:   Thu Jul 25 01:55:13 2019 +0300
 
 
 commit d2f7ef1222dc4f71d64446e279f9e51b26b3b375
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Jun 14 02:50:54 2019 +0300
 
     en:
@@ -566,7 +604,7 @@ Date:   Fri Jun 14 02:50:54 2019 +0300
 
 
 commit ec19fc4f2555b93b1de21ade95200b3a2bbe1a96
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Apr 18 16:13:30 2019 +0300
 
     en:
@@ -588,7 +626,7 @@ Date:   Thu Apr 18 16:13:30 2019 +0300
 
 
 commit 041e728c2abe9b6a97859675d06f04bf807acab8
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Mar 20 00:57:25 2019 +0300
 
     en:
@@ -615,7 +653,7 @@ Date:   Wed Mar 20 00:57:25 2019 +0300
 
 
 commit 0eff1614634bdf155ecb0553efe426ad4455d749
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Feb 28 01:12:49 2019 +0300
 
     en:
@@ -640,7 +678,7 @@ Date:   Thu Feb 28 01:12:49 2019 +0300
 
 
 commit 484ac43622fc42c874adc01e3fc273bd741a4fc4
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Sun Feb 17 21:12:19 2019 +0300
 
     en:
@@ -660,7 +698,7 @@ Date:   Sun Feb 17 21:12:19 2019 +0300
 
 
 commit 069c3bffbd1e76dee18a72d70e32da0e3b8adb1e
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Feb 11 14:47:21 2019 +0300
 
     en:
@@ -698,7 +736,7 @@ Date:   Mon Feb 11 14:47:21 2019 +0300
 
 
 commit df2297b81f59dbbe01098c63b9c77af0db2f038b
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Jan 25 03:20:21 2019 +0300
 
     en:
@@ -722,7 +760,7 @@ Date:   Fri Jan 25 03:20:21 2019 +0300
       > не пытаться получить *последнюю* ошибку если неизвестно поддерживает принтер этот функционал или нет(потому что в таком случае уйдет состояние этой ошибки)
 
 commit d70b96de5d4f4e05c78374d23fd2e530ca32e6dc
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Sun Dec 16 21:54:20 2018 +0300
 
     en:
@@ -734,7 +772,7 @@ Date:   Sun Dec 16 21:54:20 2018 +0300
       > обновлена версия сборки
 
 commit ecc8c3f72e1a5ac086a422da252b0ef7351267b6 (tag: 1.4.4)
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Sun Dec 16 02:56:42 2018 +0300
 
     en:
@@ -765,7 +803,7 @@ Date:   Sun Dec 16 02:56:42 2018 +0300
 
 
 commit 186c0e38f327bd68bf57950eaf256ed32d3fa661
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Dec 5 02:37:25 2018 +0300
 
     en:
@@ -784,7 +822,7 @@ Date:   Wed Dec 5 02:37:25 2018 +0300
 
 
 commit 534f6057354c7aa4c6a9fad19dc9510c6b08fcaf
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Nov 26 10:43:35 2018 +0300
 
     en:
@@ -810,7 +848,7 @@ Date:   Mon Nov 26 10:43:35 2018 +0300
       > добавлен метод getFsDocumentByNumber
 
 commit d1855759b9e5471da7cdd14a0aa8829a23654d34
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Sat Nov 24 15:17:25 2018 +0300
 
     en:
@@ -822,7 +860,7 @@ Date:   Sat Nov 24 15:17:25 2018 +0300
       > поправлена работа метода FNGetDocumentAsString на Кассовом Ядре (https://github.com/shtrih-m/fr_drv_ng/issues/25)
 
 commit a4b5e5fa71e337b192b90f3a734d1917582ab496
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Nov 19 12:13:08 2018 +0300
 
     en:
@@ -834,7 +872,7 @@ Date:   Mon Nov 19 12:13:08 2018 +0300
       > поправлена обработка опциональных параметров команды вместе с - аргументами
 
 commit ba1e0e6fcc2dabd99e7434b6356e0230bb0db7f3
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Nov 19 11:03:28 2018 +0300
 
     en:
@@ -873,7 +911,7 @@ Date:   Mon Nov 19 11:03:28 2018 +0300
 
 
 commit c4d0d07411eeae655833a3255f972a11c4c92096
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Nov 12 11:42:06 2018 +0300
 
     en:
@@ -900,7 +938,7 @@ Date:   Mon Nov 12 11:42:06 2018 +0300
 
 
 commit ac7dadcf4dfaf0d9d72becfd3c34ec8cbc79465d
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Nov 8 23:53:17 2018 +0300
 
     en:
@@ -925,7 +963,7 @@ Date:   Thu Nov 8 23:53:17 2018 +0300
 
 
 commit aee135f02c632cfe9ac5d738b95fc35092fcd4bd
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Nov 1 17:27:31 2018 +0300
 
     en:
@@ -938,7 +976,7 @@ Date:   Thu Nov 1 17:27:31 2018 +0300
 
 
 commit 86fabefaac0e37e43cf33d8a4c0c591ddff366bd
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Oct 31 14:14:34 2018 +0300
 
     en:
@@ -969,7 +1007,7 @@ Date:   Wed Oct 31 14:14:34 2018 +0300
 
 
 commit 7acc61cdc63846c7748ac22955eb05a3d1f3cb7b
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Oct 15 18:03:27 2018 +0300
 
     en:
@@ -995,7 +1033,7 @@ Date:   Mon Oct 15 18:03:27 2018 +0300
     CI: i486_ok - сборка с поддержкой старых ядер (<= 2.6.32 glibc 2.23)
 
 commit 44a414d1e3fb8358ea9e8cebb165932274a4ad91 (tag: 1.4.3)
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Sun Oct 14 03:41:43 2018 +0300
 
     en:
@@ -1035,7 +1073,7 @@ Date:   Sun Oct 14 03:41:43 2018 +0300
       > добавлены методы ReadFeatureLicenses/WriteFeatureLicenses, свойство DigitalSign 1.4.3
 
 commit 37390997869da3d95eeaed016367b7fe801e6ef5
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Sep 21 15:53:12 2018 +0300
 
     en:
@@ -1066,7 +1104,7 @@ Date:   Fri Sep 21 15:53:12 2018 +0300
 
 
 commit 55e28a139e8bcca41feb9619295b1211c053a872  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Tue Sep 11 00:42:18 2018 +0300
 
     en:
@@ -1098,7 +1136,7 @@ Date:   Tue Sep 11 00:42:18 2018 +0300
     Doxyfile: генерировать XML
   
 commit 13a20ee3b849ea75ec5ea09824db32e953c4d78a  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Tue Sep 11 00:26:00 2018 +0300
 
     en:
@@ -1108,7 +1146,7 @@ Date:   Tue Sep 11 00:26:00 2018 +0300
     CI: сборка библиотеки qclassic(Qt обертка classic_fr_drv_ng с поддержкой свойств, сигналов и слотов)
   
 commit ccc0ad78d77fec93bd22813acfb4e28ef8f212d9  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Tue Sep 4 22:33:42 2018 +0300
 
     en:
@@ -1119,7 +1157,7 @@ Date:   Tue Sep 4 22:33:42 2018 +0300
       > реализован метод ReadErrorDescription
   
 commit 961132951b75b8f72e2cd6eb3d99f449df4c8f92  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Mon Sep 3 19:19:02 2018 +0300
 
     en:
@@ -1131,7 +1169,7 @@ Date:   Mon Sep 3 19:19:02 2018 +0300
        > обновлены тесты для CI
   
 commit b5c3a03db5bbe31bc69b5aba8d60ba456976616e  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Mon Sep 3 18:40:59 2018 +0300
 
     en:
@@ -1153,13 +1191,13 @@ Date:   Mon Sep 3 18:40:59 2018 +0300
       > добавлен тест закрытия смены с тегом.
   
 commit bdc448cb6cbf8c2cb29d1eb71223460d321b9906  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Thu Aug 30 14:24:38 2018 +0300
 
     add github fr_drv_ng submodule
   
 commit b03c9df222804194cca89578aae43a02ae6eac04  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Thu Aug 30 14:23:10 2018 +0300
 
     en:
@@ -1212,7 +1250,7 @@ Date:   Thu Aug 30 14:23:10 2018 +0300
       > добавлено свойство SkipPrint
   
 commit a232fa0dd5b81e2db9b09a43bf76715cf6672c0f  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Mon Aug 20 17:35:35 2018 +0300
 
     en:
@@ -1221,7 +1259,7 @@ Date:   Mon Aug 20 17:35:35 2018 +0300
     ci: поправлена сборка jar библиотеки под android
   
 commit 9d1b63e87926eed283a766eb60157fdaa780d8ac  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Mon Aug 20 17:27:23 2018 +0300
 
     en:
@@ -1233,7 +1271,7 @@ Date:   Mon Aug 20 17:27:23 2018 +0300
       > на устройствах с КЯ команда FF0A возкращает дату "Отчета о состоянии расчетов" без времени
   
 commit 8b08067bd9b176983815a8d3e3bd170b23c397b1  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Mon Aug 20 16:00:27 2018 +0300
 
     en:
@@ -1257,7 +1295,7 @@ Date:   Mon Aug 20 16:00:27 2018 +0300
       > поправлена сборка с clang: urlHelper regex
   
 commit 2edb6aa6c050cb070a3df820d2ea2ff771f2d3be  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Wed Aug 8 20:53:27 2018 +0300
 
     en:
@@ -1269,7 +1307,7 @@ Date:   Wed Aug 8 20:53:27 2018 +0300
       > Barcode1D поправлены модели для обхода проблемы с переворотом
   
 commit 0d99faaec11cdddb8b60222ac153af3aaf3dc85a  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Tue Aug 7 14:42:45 2018 +0300
 
     en:
@@ -1281,7 +1319,7 @@ Date:   Tue Aug 7 14:42:45 2018 +0300
       > поправлены тесты выравнивания ШК
   
 commit dcc5109192aa3fbe6ee95ab9151dbc3ad28933f9  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Mon Aug 6 19:12:54 2018 +0300
 
     en:
@@ -1304,7 +1342,7 @@ Date:   Mon Aug 6 19:12:54 2018 +0300
       > обновлено описание ошибки 161
   
 commit 75839121a470614f0873a7c2c127fc80b12b4337  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Tue Jul 31 16:37:31 2018 +0300
 
     en:
@@ -1320,7 +1358,7 @@ Date:   Tue Jul 31 16:37:31 2018 +0300
       > LogUtil свойство result
   
 commit 677727a465fb14bafd23890a8f1e825e9967605b  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Tue Jul 31 15:00:24 2018 +0300
 
     en:
@@ -1334,7 +1372,7 @@ Date:   Tue Jul 31 15:00:24 2018 +0300
       > добавлены  UIN(), isUM(), isReady() в DeviceProperties
   
 commit f654c86ba580db96929367f43f7aa13ce8919fd3  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Thu Jul 26 19:26:55 2018 +0300
 
     en:
@@ -1350,7 +1388,7 @@ Date:   Thu Jul 26 19:26:55 2018 +0300
       > Линковаться с QT5::Core
   
 commit 214e0cc5220863fe265aac32c72ea8231781381b  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Thu Jul 26 12:27:12 2018 +0300
 
     en:
@@ -1388,7 +1426,7 @@ Date:   Thu Jul 26 12:27:12 2018 +0300
       > BitUtil тесты
   
 commit edf15778aa5bb7af6107c774081fe5740a7753b4  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Tue Jul 24 23:50:27 2018 +0300
 
     en:
@@ -1414,7 +1452,7 @@ Date:   Tue Jul 24 23:50:27 2018 +0300
       > Получать номер таблицы ФН динамически
   
 commit 8be76c4d4706edd94ab6a2da161f1df761b86f6b  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Mon Jul 16 12:31:16 2018 +0300
 
     en:
@@ -1435,7 +1473,7 @@ Date:   Mon Jul 16 12:31:16 2018 +0300
       > WriteUpdatePartCommand добавлена загрузка таблиц
   
 commit 5bfa834f0b4733b981404bc07eacf34db3546786  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Wed Jul 11 13:52:39 2018 +0300
 
     en:
@@ -1447,7 +1485,7 @@ Date:   Wed Jul 11 13:52:39 2018 +0300
       > исправлен метод FNSendItemCodeData для табачных изделий
   
 commit d01ab0507e4c9b0acdc8f6f7727d01887ae68da2  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Wed Jul 11 09:16:34 2018 +0300
 
     en:
@@ -1462,7 +1500,7 @@ Date:   Wed Jul 11 09:16:34 2018 +0300
       > увеличено время ожидания загрузки qemu
   
 commit ae900100993b31c38d1d0ab67eff7df554c34063  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Wed Jul 11 01:24:42 2018 +0300
 
     en:
@@ -1484,7 +1522,7 @@ Date:   Wed Jul 11 01:24:42 2018 +0300
       > добавлена команда ReadShortIBMPrinterStatusCommand(0xD1)
   
 commit d8e45cf9ac60e5f2e23e617c24d8d1e3d26354da  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Mon Jul 9 12:36:36 2018 +0300
 
     en:
@@ -1502,7 +1540,7 @@ Date:   Mon Jul 9 12:36:36 2018 +0300
       > windows собирается с VisualStudio 2017
   
 commit 14d7356c4bfa38400ad80f842947cf4a58947c19  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Fri Jul 6 17:31:36 2018 +0300
 
     en:
@@ -1518,13 +1556,13 @@ Date:   Fri Jul 6 17:31:36 2018 +0300
       > CI обновление скриптов
   
 commit 7cf7a284c5fc964a67aa52617ba4fd883102f03e  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Fri Jul 6 11:55:02 2018 +0300
 
     CI: fix build
   
 commit a14a57fdba3e73c6e52ffff4770f84f6f8bea889  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Fri Jul 6 03:45:07 2018 +0300
 
     en:
@@ -1535,7 +1573,7 @@ Date:   Fri Jul 6 03:45:07 2018 +0300
         интеграционные тесты на железе
   
 commit aa880eb683a2cf30ac091024ae677fe5f076a4dc  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Fri Jul 6 03:24:58 2018 +0300
 
     en:
@@ -1583,7 +1621,7 @@ Date:   Fri Jul 6 03:24:58 2018 +0300
       > использовать потокобезопасный localtime
   
 commit bf4c1ed74ee3b61930e79468c1446c7bb093e9ad  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Thu Jun 28 14:03:34 2018 +0300
 
     ru:
@@ -1631,7 +1669,7 @@ Date:   Thu Jun 28 14:03:34 2018 +0300
       > -fPIC on
   
 commit 4e52de92829236d02534d70b6f9c401a85570c5e  
-Author: Alexey Mednyy <swexru@gmail.com>  
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>  
 Date:   Tue Jun 26 20:48:24 2018 +0300
 
     v 1.4.0
