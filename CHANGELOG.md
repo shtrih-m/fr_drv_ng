@@ -1,3 +1,31 @@
+commit c836ac18eb8e29326beefec69565aaaaa421cdc4
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Tue Sep 7 04:47:58 2021 +0300
+
+    en:
+    classic:
+      > add FNSendUserAttribute
+      > implemented FNOpenCheckCorrection
+    
+    ru:
+    classic:
+      > добавлен метод FNSendUserAttribute
+      > добавлена реализация метода FNOpenCheckCorrection
+
+commit a1e5decebc1b65ddec807b2bd590afd870e2a436
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Thu Aug 26 17:35:04 2021 +0300
+
+    en:
+    console_test:
+      > font command
+      > print command
+    
+    ru:
+    console_test:
+      > команда получения параметров шрифта
+      > команда печати строки
+
 commit a11ab039fe0de098793390a8c33ae57d8062a462
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Aug 24 18:30:32 2021 +0300
