@@ -1,3 +1,16 @@
+commit e904e8f43db91dfda19c449d905e2b7ab06461a1
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Mon Sep 13 10:38:25 2021 +0300
+
+    en:
+    classic:
+      > update java wrapper
+    
+    ru:
+    classic:
+      > обновлена java обертка
+
+
 commit c836ac18eb8e29326beefec69565aaaaa421cdc4
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Sep 7 04:47:58 2021 +0300
