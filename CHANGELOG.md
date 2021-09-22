@@ -1,3 +1,20 @@
+commit 962f5af3073d88d5ef3ecfcafef9c057f234514f
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Tue Sep 21 16:11:56 2021 +0300
+
+    en:
+    cppbase:
+      > fix FF3F: https://github.com/shtrih-m/fr_drv_ng/issues/155
+    console_test:
+      > add fs-calculation-report command
+    
+    ru:
+    cppbase:
+      > поправлен разбор ответа на команду FF3F("Запрос количества ФД на которые нет квитанции": https://github.com/shtrih-m/fr_drv_ng/issues/155
+    console_test:
+      > добавлена команда: сформировать отчет о состоянии расчетов: fs-calculation-report
+
+
 commit e904e8f43db91dfda19c449d905e2b7ab06461a1
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Sep 13 10:38:25 2021 +0300
