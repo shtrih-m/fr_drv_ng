@@ -1,3 +1,15 @@
+commit 53f21d5b84a3fc7b8e4997353986aaaf58f1a92d
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Thu Sep 23 03:55:16 2021 +0300
+
+    en:
+    classic:
+      > WaitForPrintingTimeout added
+    
+    ru:
+    classic:
+      > добавлено свойство WaitForPrintingTimeout - глобальный таймаут для метода WaitForPrinting
+
 commit 962f5af3073d88d5ef3ecfcafef9c057f234514f
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Sep 21 16:11:56 2021 +0300
