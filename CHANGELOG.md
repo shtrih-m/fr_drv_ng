@@ -1,3 +1,31 @@
+commit 99a69a4fe0fce39d5e47ddc5973ae9411ff31f0e
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Mon Oct 11 19:30:21 2021 +0300
+
+    en:
+    cppbase:
+      > fix per command timeout
+    
+    ru:
+    cppbase:
+      > исправлен специфичный для команды таймаут
+
+commit 417531a8df74b5a05aab1d2f46daefebe8af09da
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed Sep 29 14:53:10 2021 +0300
+
+    en:
+    classic:
+      > fixed WaitForPrintig error report for #WaitForPrintingTimeout expired case
+    cppbase:
+      > error codes synchronized with DrvFR driver
+    
+    ru:
+    classic:
+      > поправлена возвращаемая ошибка WaitForPrintig в случае истченеия #WaitForPrintingTimeout
+    cppbase:
+      > синхронизированы коды ошибок с Драйвер ФР под Windows
+
 commit 53f21d5b84a3fc7b8e4997353986aaaf58f1a92d
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Sep 23 03:55:16 2021 +0300
