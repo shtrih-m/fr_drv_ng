@@ -1,3 +1,16 @@
+commit 7779d97cc2cf3498c25595b7437088a5df477508
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed Oct 13 15:22:21 2021 +0300
+
+    en:
+    clasic:
+      > fix WaitForPrintingTimeout Get/Set for C wrapper
+    
+    ru:
+    classic:
+      > исправлено свойство WaitForPrintingTimeout для C обертки
+
+
 commit 99a69a4fe0fce39d5e47ddc5973ae9411ff31f0e
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Oct 11 19:30:21 2021 +0300
