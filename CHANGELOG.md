@@ -1,3 +1,49 @@
+commit af202bc82647806d962e6b1bb634f2498aa69757 (HEAD -> master, origin/master, origin/HEAD)
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Tue Jan 18 17:20:43 2022 +0300
+
+    ru:
+    classic::
+      > добавлена поддержка декларативного интерфейса(DeclarativeInput,DeclarativeEndpointPath,DeclarativeOutput,RenderDeclarativeDocument)
+      > python setup.py добавлен RPATH ORIGIN
+      > запись версии драйвера в таблицы
+    classic_java:
+      > добавлена поддержка декларативного интерфейса(DeclarativeInput,DeclarativeEndpointPath,DeclarativeOutput,RenderDeclarativeDocument)
+    console_test:
+      > исправлена отмена документа в команде state-reset
+      > поправлена загрузка шрифта
+      > new command: cf-write псевдоним для put-font
+      > new command: cf-reset сбрасывает пользовательский шрифт
+      > new command: cf-sha256sum-kkt получить sha256sum из ККТ
+      > new command: cf-sha256sum-spf посчитает sha256sum для spf файла
+      > new command: cf-sort-spf отсортирует глифы внутри spf файла и выдаст сортированный spf на стандартный вывод
+    cppbase_test:
+      > добавлены тесты
+    qclassic_fr_drv_ng:
+      > добавлена поддержка декларативного интерфейса(DeclarativeInput,DeclarativeEndpointPath,DeclarativeOutput,RenderDeclarativeDocument)
+    
+    en:
+    classic::
+      > declarative api added
+      > python setup.py add current directory to library runpath(RPATH ORIGIN)
+      > write driver version info to tables
+    classic_java:
+      > declarative api added
+    console_test:
+      > fix document cancellation in state-reset command
+      > fix spf handling
+      > new command: cf-write alias for put-font
+      > new command: cf-reset reset custom font
+      > new command: cf-sha256sum-kkt get custom font sha256sum from device
+      > new command: cf-sha256sum-spf get spf file sha256sum
+      > new command: cf-sort-spf read spf font from file, sort glyphs by code and write sorted spf to stdout
+    cppbase_test:
+      > update tests
+    qclassic_fr_drv_ng:
+      > declarative api added
+
+
+
 commit 7779d97cc2cf3498c25595b7437088a5df477508
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Oct 13 15:22:21 2021 +0300
