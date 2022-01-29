@@ -1,4 +1,26 @@
-commit af202bc82647806d962e6b1bb634f2498aa69757 (HEAD -> master, origin/master, origin/HEAD)
+commit ed183346bb6457fee00e99051bf28a187e6f4dee
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Fri Jan 28 22:25:50 2022 +0300
+
+    ru:
+    console_test:
+      > print-feature-licenses - человекочитаемая печать функциональных лицензий
+    cppbase:
+      > поправлена инициализация libusb/cdcacm на android
+    classic:
+      > добавлено свойство DataBlockHex - шестнадцатеричный псевдоним для DataBlock
+
+    en:
+    console_test:
+      > print-feature-licenses - human readable feature licenses explanation
+    cppbase:
+      > fix libusb/cdcacm for android
+    classic:
+      > added DataBlockHex property - hex an alias for DataBlock
+
+
+
+commit af202bc82647806d962e6b1bb634f2498aa69757
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Jan 18 17:20:43 2022 +0300
 
