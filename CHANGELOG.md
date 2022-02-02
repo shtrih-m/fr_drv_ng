@@ -1,3 +1,12 @@
+commit 1b0b8785a335f50a53e641108bc167dd4801e64c
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Mon Jan 31 17:58:29 2022 +0300
+
+    ru:
+    classic:
+      > исправлено заполнение свойства DataBlockHex в методе FNReadNotificationBlock
+
+
 commit ed183346bb6457fee00e99051bf28a187e6f4dee
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Jan 28 22:25:50 2022 +0300
