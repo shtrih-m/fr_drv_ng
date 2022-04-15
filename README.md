@@ -41,5 +41,5 @@
 
   ## Документация
   * **console_test_fr_drv_ng** - запусть тест в терминале с аргументом --help
-  * **classic_fr_drv_ng** - общая справка [здесь](https://exam.shtrih-m-partners.ru/assets/materials/DriverKKT_Guide_414_02_10_17.zip), справка для реализованных методов доступна в заголовочном файле classic_interface.h в формате doxygen. Заголовочный в сборках рядом с нативными библиотеками.
+  * **classic_fr_drv_ng** - общая справка [здесь](https://exam.shtrih-m-partners.ru/assets/materials/DriverKKT_Guide_415_16_11_20_.zip), справка для реализованных методов доступна в заголовочном файле classic_interface.h в формате doxygen. Заголовочный в сборках рядом с нативными библиотеками.
   * **WIKI** - [идёт наполнение](https://github.com/shtrih-m/fr_drv_ng/wiki)
