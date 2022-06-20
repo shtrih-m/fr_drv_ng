@@ -1,5 +1,14 @@
+commit 45e25eeb269a7c034e0d2dbbd7d2dfe0e9576f66
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Mon Jun 20 18:19:38 2022 +0300
+
+    en:
+    classic:
+      > fix LoadBlockData method to use BlockType
+
+
 commit 4bbc8441b3eabb7eaf8f6dd78f9114f7bb29d87b
-Author: Alexey Mednyy <swexru@gmail.com>
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Jun 20 06:04:57 2022 +0300
 
     en:
