@@ -1,3 +1,15 @@
+commit 4bbc8441b3eabb7eaf8f6dd78f9114f7bb29d87b
+Author: Alexey Mednyy <swexru@gmail.com>
+Date:   Mon Jun 20 06:04:57 2022 +0300
+
+    en:
+    ci:
+       > mingw builds
+    console:
+       >  prpogram-serial command
+       >  fs-find-doc command
+
+
 commit 1b0b8785a335f50a53e641108bc167dd4801e64c
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Jan 31 17:58:29 2022 +0300
