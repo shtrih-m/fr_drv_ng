@@ -1,3 +1,43 @@
+commit 4b210eeedd7cf62a77deb1d646e25c8652605e89
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed Jul 20 17:42:05 2022 +0300
+
+    en:
+    classic:
+      > add LoadFontSymbol,LoadFont,ReadFontHash,ResetFont methods
+      > add FontHashHex property
+      > add setPropertyTouchedCallbacka
+      > json-rpc add support for 'named params' method calls
+
+    ru:
+    classic:
+      > добавлены методы LoadFontSymbol,LoadFont,ReadFontHash,ResetFont
+      > добавлено свойство FontHashHex
+      > добавлена возможность установить коллбек на установку свойств: setPropertyTouchedCallback
+      > json-rpc добавлена возможность вызвать методы с установкой свойств
+    через именованные параметры
+
+commit bce2257f1a17d0393ec027120a9b184b88f76f67
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Fri Jul 1 05:25:56 2022 +0300
+
+    en:
+    ci:
+      > strip mingw windows builds
+    classic:
+      > json-rpc support
+    console:
+      > run-ws-json-rpc-server - command to launch json-rpc server, console_test now links with classic
+
+    ru:
+    ci:
+      > сборки mingw под windows без отладочной информации
+    classic:
+      > поддержка вызовов json-rpc
+    console:
+      > run-ws-json-rpc-server - команда для запуска json-rpc сервера, консольный тест теперь зависит от classic
+
+
 commit 45e25eeb269a7c034e0d2dbbd7d2dfe0e9576f66
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Jun 20 18:19:38 2022 +0300
