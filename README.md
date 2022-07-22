@@ -23,20 +23,19 @@
   * **fr_drv_ng_iOS_multarch** - сборка под iOS
 
   ### Содержимое сборок:
-  #### Во всех сборках под ОС находятся нативные файлы библиотек(статические и динамические сборки):
-  * **cppbase_fr_drv_ng** - общий код, базовый функционал. команды, протоколы и.т.д., линкуется только со стандартной библиотекой
+  #### Во всех сборках под ОС находятся нативные файлы динамических библиотек:
   * **classic_fr_drv_ng** - "классический интерфейс" аналог Драйвер ФР под windows, линкуется только со стандартной библиотекой и cppbase_fr_drv_ng
   * **qclassic_fr_drv_ng** - Qt обертка вокруг classic с сигналами/слотами, свойства вынесены в Q_PROPERTY, линкуется только с Qt5Core и classic_fr_drv_ng
   #### Программы:
-  * **console_test_fr_drv_ng** - консольный тест для встраивания в скриптовые окружения
+  * **console_test_fr_drv_ng** - консольный тест для встраивания в скриптовые окружения, так же позволяет запустить веб сервер для работы с classic через[json-rpc](https://github.com/shtrih-m/fr_drv_ng_examples/tree/master/classic_jsonrpc)
   #### Утилиты
   * **android_util_fr_drv_ng** - android aar-java библиотека с функциями-утилитами под android
-  * **classic_java_fr_drv_ng** - java обертка для **classic_fr_drv_ng**
+  * **classic_java_fr_drv_ng** - java обертка для **classic_fr_drv_ng**, в актуальных сборках поддержка java встроена в саму библиотеку classic_fr_drv_ng
   #### Дополнительно
   * В сборках под Android лежит библиотека STL с которой собирался релиз **libc++_shared.so**, необходимо включить в приложение
   * В сборках под Linux в поддиректории libs лежат библиотеки libc, STL с которыми собирался релиз, можно линковаться с ними
   #### С++ Headers
-  * **classic_interface.h** - заголовочный для classic_interface
+  * **classic_interface.h** - заголовочный для classic_interface + документация по интерфейсу
   * **QClassicFrDrvNg,qclassic_interface.h** - Qt-style заголовочные для qclassic_fr_drv_ng 
 
   ## Документация

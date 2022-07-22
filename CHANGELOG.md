@@ -1,3 +1,26 @@
+commit 1fc0e05e3f54964cf5c5268e6cbb5d1f680fec22
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Fri Jul 22 17:13:51 2022 +0300
+
+    en:
+    classic:
+      > json-rpc correctly handle empty array/empty object in method calls
+    ru:
+    classic:
+      > json-rpc обработка случаев когда в параметры к методу передан пустой массив или словарь
+
+commit ba7f28557bd6b2cd80cf6795b0988f5c66279486
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Fri Jul 22 15:22:14 2022 +0300
+
+    en:
+    classic:
+      > jsonrpc: properties ConnectionType, LDConnectionType, BarcodeAlignment, FinishDocumentMode, BinaryConversion, CodePage are settable
+
+    ru:
+    classic:
+      > jsonrpc: свойства ConnectionType, LDConnectionType, BarcodeAlignment, FinishDocumentMode, BinaryConversion, CodePage можно установить
+
 commit 4b210eeedd7cf62a77deb1d646e25c8652605e89
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Jul 20 17:42:05 2022 +0300
