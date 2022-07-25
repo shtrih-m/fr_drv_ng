@@ -1,3 +1,16 @@
+commit d46012aaa60034790e187d500a81d6bbb8812f6e
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Mon Jul 25 16:57:24 2022 +0300
+
+    en:
+    classic:
+      > swig interface file: FontHashHex is readable only attribute
+      > json-rpc fix partial property name match
+    ru:
+    classic:
+      > поправлено: swig свойство FontHashHex теперь только для чтения
+      > json-rpc поправлен матчер имен свойств
+
 commit 1fc0e05e3f54964cf5c5268e6cbb5d1f680fec22
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Jul 22 17:13:51 2022 +0300
