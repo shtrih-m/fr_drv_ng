@@ -1,3 +1,15 @@
+commit 8f3f6f7ce290d465952e6c7051e552fe3b9fbf7d
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Tue Aug 16 01:58:09 2022 +0300
+
+    en:
+    cppbase:
+        > SPFParser fixed
+    ru:
+    cppbase:
+        > Поправлен разбор spf шрифта
+
+
 commit d46012aaa60034790e187d500a81d6bbb8812f6e
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Jul 25 16:57:24 2022 +0300
