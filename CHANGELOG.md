@@ -1,3 +1,15 @@
+commit 39b4b0d66e3c3d2646c5545b94ed991537fdb682
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed Aug 17 04:51:52 2022 +0300
+
+    en:
+    classic:
+        > added new functionality DFE_SkipRequisitePrint, DFE_UseDefaultPropertyIfNotSetByUser
+    ru:
+    classic:
+        > добавлена функциональность DFE_SkipRequisitePrint, DFE_UseDefaultPropertyIfNotSetByUser
+
+
 commit 8f3f6f7ce290d465952e6c7051e552fe3b9fbf7d
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Aug 16 01:58:09 2022 +0300
