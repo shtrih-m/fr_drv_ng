@@ -1,3 +1,18 @@
+commit 422716fc30f39fe9ec03a61b22f4329b37b9007a
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Thu Sep 8 20:21:56 2022 +0300
+
+    en:
+    classic:
+      > fix operation tag write order (MeasureUnit and DivisionalQuantity) in FNOperation for cashcore
+      > fix writing senior bit for ValueOfFieldInteger in WriteTable
+    
+    ru:
+    classic:
+      > поправлен порядок записи тегов, привязанных к операции (MeasureUnit and DivisionalQuantity) в методе FNOperation for КЯ
+      > исправлена запись старшего бита для ValueOfFieldInteger в WriteTable
+
+
 commit 39b4b0d66e3c3d2646c5545b94ed991537fdb682
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Aug 17 04:51:52 2022 +0300
