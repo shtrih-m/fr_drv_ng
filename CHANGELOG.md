@@ -1,3 +1,20 @@
+commit 6b15123eac67c23dabdbd481b886664eb68e1125
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Tue Sep 13 02:36:31 2022 +0300
+
+    en:
+    classic:
+      > add method DecodeTLVData
+    cppbase:
+      > remove rub from TLV money format
+    
+    ru:
+    classic:
+      > добавлен метод DecodeTLVData
+    cppbase:
+      > удален руб из формата денежных тегов в TLV
+
+
 commit 422716fc30f39fe9ec03a61b22f4329b37b9007a
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Sep 8 20:21:56 2022 +0300
