@@ -1,3 +1,16 @@
+commit 9551cdd3dd47f2fe5e15911a094a16785df063af
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Thu Dec 29 14:33:36 2022 +0300
+
+    en:
+    cppbase:
+      > fix IO factory for serial
+    
+    ru:
+    cppbase:
+      > поправлен разбор URI для схемы serial
+
+
 commit 071f90a69f34f3c7477159f7a15d7e8f34862e29
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Dec 28 23:59:33 2022 +0300
