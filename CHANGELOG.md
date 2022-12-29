@@ -1,3 +1,41 @@
+commit 071f90a69f34f3c7477159f7a15d7e8f34862e29
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed Dec 28 23:59:33 2022 +0300
+
+    en:
+    ci:
+      > 1C two separate libs 32 for FFD 1.05, 34 for FFD 1.2
+      > 1C builds android support
+    android_util:
+      > target API 26 -> 32
+    classic:
+      > improve detailed error description report
+    console_test:
+      > improve json-rpc server logging
+      > link classic_fr_drv_ng statically
+    cppbase:
+      > dump data command now can handle > 32 bytes per block
+    one_s:
+      > FFD 1.2, suffix 34
+      > FFD 1.05, suffix 32
+
+    ru:
+    ci:
+      > 1C поддержка android
+      > 1C 2 сбокри под API 32(ФФД 1.05) и API 34(ФФД 1.2)
+    android_util:
+      > целевой API 26 -> 32
+    classic:
+      > улучшен вывод подробного текстового описания ошибок
+    console_test:
+      > улучшено логгирование json-rpc сервера
+      > статическая линковка classic_fr_drv_ng
+    cppbase:
+      > команда дамп может получать блоки больше 32 байт
+    one_s:
+      > ФФД 1.2, суффикс 34
+      > ФФД 1.05, суффикс 32
+
 commit 6b15123eac67c23dabdbd481b886664eb68e1125
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Tue Sep 13 02:36:31 2022 +0300
