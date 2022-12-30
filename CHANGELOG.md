@@ -1,3 +1,26 @@
+commit 1bad4ad0b26d8be9ec9fb52cde3788d523c95f35
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Fri Dec 30 03:22:22 2022 +0300
+
+    en:
+    classic:
+      > update ConnectionURI only if ConnectionType of tcp or serial
+      < do not throw on unsupported ConnectionType
+    console_test:
+      > fix format for unknown marking check buffer capacity
+    cppbase:
+      > fix serial schema uri parsing
+      > check IP port range in uri
+    
+    ru:
+    classic:
+      > формировать свойство ConnectionURI только если ConnectionType tcp или serial
+      < не бросать исключение при кривом ConnectionType
+    cppbase:
+      > поправлен разбор uri для последовательных портов
+      > проверка диапазона IP портов в uri
+
+
 commit 9551cdd3dd47f2fe5e15911a094a16785df063af
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Dec 29 14:33:36 2022 +0300
