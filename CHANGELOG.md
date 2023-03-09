@@ -1,3 +1,42 @@
+commit c92aa0c511d27cfaf8ce7dcfb5b230c07ae6aecf
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Thu Mar 9 06:09:47 2023 +0300
+
+    en:
+    classic_fr_drv_ng
+      > FNSendItemBarcode uses new MCOSUSign property
+    console_test_fr_drv_ng
+      > put-sd-update for new devices
+    cppbase_fr_drv_ng
+      > OSU sign added to assignMarkCommand(FF67h)
+      > added command names to log
+      > added ssl/tls socket
+    one_s_fr_drv_ng
+      > fixed check closing
+      > fixed RequestKM method for fractional quantity
+      > fixed continue printing
+      > added method in 1C interface ShrihMDeviceIOControl (ШтрихМУправлятьУстройством) for low-level device control
+      > added ffd 1.2 check attributes to 1c
+      > 1c ffd 1.2
+    
+    ru:
+    classic_fr_drv_ng
+      > FNSendItemBarcode добавлено свойство MCOSUSign (признак Объемно Сортового Учета)
+    console_test_fr_drv_ng
+      > put-sd-update поддерживает новые принтеры
+    cppbase_fr_drv_ng
+      > признак ОСУ добавлен в assignMarkCommand(FF67h "Привязка маркированного товара к позиции")
+      > добавлен вывод наименований команд в лог
+      > добавлена поддержка безопасного соединения поверх ssl/tls сокета
+    one_s_fr_drv_ng
+      > исправлено закрытие чека
+      > исправлена работа метода RequestKM для дробного количества
+      > исправлено продолжение печати после отсутствия бумаги
+      > добавлен метод в 1C интерфейс ShrihMDeviceIOControl (ШтрихМУправлятьУстройством) для низкоуровнего управления кассами Штрих-М
+      > добавлены атрибуты ФФД 1.2
+      > реализована поддержка ФФД 1.2
+
+
 commit 1bad4ad0b26d8be9ec9fb52cde3788d523c95f35
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Dec 30 03:22:22 2022 +0300
