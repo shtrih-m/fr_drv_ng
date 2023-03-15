@@ -1,3 +1,20 @@
+commit 96e35371aca5c55bacc1de765eb62d6d700353b7
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed Mar 15 16:57:51 2023 +0300
+
+    en:
+    cppbase:
+      > fix updated ConnectionURI issues
+    one_s:
+      > version 34 -> 40
+    
+    ru:
+    cppbase:
+      > исправлены проблемы с разбором ConnectionURI
+    one_s:
+      > переход к требованиям версии 40, 34 -> 40
+
+
 commit c92aa0c511d27cfaf8ce7dcfb5b230c07ae6aecf
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Thu Mar 9 06:09:47 2023 +0300
