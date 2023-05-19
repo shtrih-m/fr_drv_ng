@@ -1,3 +1,26 @@
+commit 746c7c51002b7f778154e067bea154550c199dd4
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed May 17 02:34:04 2023 +0300
+
+    en:
+    classic:
+      > add AutoOpenSession property support
+      > implement ExportTables, ImportTables
+    cppbase:
+      > ipv6 host support
+    ci:
+      > ubuntu 14.04 build
+    
+    ru:
+    classic:
+      > поддержка свойства AutoOpenSession
+      > реализованы методы ExportTables, ImportTables
+    cppbase:
+      > поддержка ipv6 для tcp транспорта
+    ci:
+      > сборка для ubuntu 14.04 с gcc 8
+
+
 commit 96e35371aca5c55bacc1de765eb62d6d700353b7
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Mar 15 16:57:51 2023 +0300
