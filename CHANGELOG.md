@@ -1,3 +1,16 @@
+commit 52802c2e3cb39ab42b9226a426da6bf396742334
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Fri Jun 2 11:52:12 2023 +0300
+
+    en:
+    console_test:
+        > workaround json-rpc windows x86 crash
+    
+    ru:
+    console_test:
+        > обход падения json-rpc под windows x86
+
+
 commit 746c7c51002b7f778154e067bea154550c199dd4
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed May 17 02:34:04 2023 +0300
