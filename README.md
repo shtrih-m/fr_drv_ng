@@ -25,7 +25,7 @@
   ### Содержимое сборок:
   #### Во всех сборках под ОС находятся нативные файлы динамических библиотек:
   * **classic_fr_drv_ng** - "классический интерфейс" аналог Драйвер ФР под windows
-  * **qclassic_fr_drv_ng** - Qt обертка вокруг classic с сигналами/слотами, свойства вынесены в Q_PROPERTY, линкуется только с Qt5Core и classic_fr_drv_ng
+  * **qclassic_fr_drv_ng** - Qt обертка вокруг classic с сигналами/слотами, свойства вынесены в Q_PROPERTY, линкуется только с Qt5Core и classic_fr_drv_ng, [исходники](https://github.com/shtrih-m/qclassic_fr_drv_ng) 
   #### Программы:
   * **console_test_fr_drv_ng** - консольный тест для встраивания в скриптовые окружения, так же позволяет запустить веб сервер для работы с classic через [json-rpc](https://github.com/shtrih-m/fr_drv_ng_examples/tree/master/classic_jsonrpc), самодостаточен, содержи реализацию classic
   #### Утилиты
