@@ -1,3 +1,38 @@
+commit 0fbabb31d883f955223eb9c06ab7ab9b3fc83a75
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed Sep 27 14:58:15 2023 +0300
+
+    en:
+      > ci: add ubuntu armv7 build
+    classic:
+      > PrintStringWithFont, PrintString, PrintWideString add support for WrapStrings
+      > add FNGetImplementation, FNGetOSUSupportStatus, FNGetDocumentSize, PrintStringWithWrap, FNReadFiscalBarcode methods
+    cppbase:
+      > fix LoadImage to support qr_application
+      > add FF74, FF75 commands
+    one_s:
+      > fixed getDataKKT method
+      > fixed operationFN method
+      > fixed timeout of session open. Now it's 50 sec
+    qclassic:
+      > initial public commit
+    
+    ru:
+      > ci: добавлена сборка armv7
+    classic:
+      > в методы PrintStringWithFont, PrintString, PrintWideString добавлена поддержка длинных строк через WrapStrings
+      > добавлены методы FNGetImplementation, FNGetOSUSupportStatus, FNGetDocumentSize, PrintStringWithWrap, FNReadFiscalBarcode
+    cppbase:
+      > поправлен метод LoadImage для поддержки qr_application
+      > добавлены команды FF74, FF75
+    one_s:
+      > исправлен метод getDataKKT
+      > исправлен operationFN
+      > исправлен таймаут открытия смены. Теперь по умолчанию это 50 секунд
+    qclassic:
+      > публичный проект
+
+
 commit 52802c2e3cb39ab42b9226a426da6bf396742334
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Fri Jun 2 11:52:12 2023 +0300
