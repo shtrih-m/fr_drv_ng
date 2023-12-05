@@ -1,3 +1,21 @@
+commit 75d85c58593262f6141fabb92c94109e08fca245
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Mon Dec 4 22:52:35 2023 +0300
+
+    en:
+    ci:
+        > iOS enable bitcode
+        > iOS add bundle identifier
+    cppbase:
+        > URI IO factory add tcpfd scheme support
+        > ProtocolV1: plain_transfer add auto|on|off modes support
+    
+    ru:
+    cppbase:
+        > добавлена поддержка схемы tcpfd в фабрику транспортного уровня
+        > ProtocolV1: plain_transfer поддержка режимов auto|on|off
+
+
 commit 0fbabb31d883f955223eb9c06ab7ab9b3fc83a75
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Wed Sep 27 14:58:15 2023 +0300
