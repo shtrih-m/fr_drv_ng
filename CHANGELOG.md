@@ -1,3 +1,59 @@
+commit e5b15e7a2e7c6f9755aac36789fa1eae51867f1c
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Wed Oct 25 17:25:37 2023 +0300
+
+    ru:
+    classic
+      > в команду FNSendTLV добавлена поддержка загрузки тегов длиной больше 249 байт
+      > реализован GenerateMonoToken
+      > log callback v2 - продвинутое внешнее логгирование
+    cppbase
+      > Protocol v1 доп проверка максимальной длины исходящих пакетов
+    ng_tools_io:
+      > tls - строгий режим проверки по умолчанию
+      > убран слишком шумный лог
+      > добавлена поддержка схемы https (то же что и ssl и tls), разница только в том что порт по умолчанию если не указан будет не 7778, а 443
+      > AndroidHelper добавлена поддержка получения спареных устройств
+    declarative_api
+      > Поддержка получения инфы о КМ в ЦРПТ, подготовка к разрешительному режиму
+      > Поддержка внешнего логгирования
+    one_s
+      > поддержка схемы btserial - связь по bluetooth
+      > поддержка нового параметра FullConnectionURI - возможность передать полный URI подключения
+
+    en:
+    classic
+      > FNSendTLV add support for TLVData buffer > 249
+      > implement GenerateMonoToken
+      > log callback v2
+    cppbase
+      > update UploadDataCommand doc
+      > protocol v1 check max transfer size
+    ng_tools_io:
+      > tls - verify by default
+      > reduce some log messages
+      > add https scheme(equals to ssl and tls), with default port 443 instead of 7778
+      > AndroidHelper list paired bt devices
+    declarative_api
+      > add crpt exchange
+      > external log message
+    one_s
+      > add btserial connection type
+      > add FullConnectionURI parameter
+
+
+commit bcc5098aecd7642c6c519329139adcde5a2f0963
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Thu Dec 7 02:09:13 2023 +0300
+
+    en:
+    console_test:
+      > add lua cjson, cmsgpack bundled libs
+
+    ru:
+    console_test:
+      > в составл lua включены библиотеки сериализации cjson и cmsgpack
+
 commit 75d85c58593262f6141fabb92c94109e08fca245
 Author: Alexey Mednyy <amednyy@shtrih-m.ru>
 Date:   Mon Dec 4 22:52:35 2023 +0300
@@ -14,6 +70,40 @@ Date:   Mon Dec 4 22:52:35 2023 +0300
     cppbase:
         > добавлена поддержка схемы tcpfd в фабрику транспортного уровня
         > ProtocolV1: plain_transfer поддержка режимов auto|on|off
+
+
+commit 1bde738388a6da46e9ebb2ff3611501e4be6f6a2
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Mon Oct 23 00:41:50 2023 +0300
+
+    en:
+    cppbase:
+      > URI IO factory add tcpfd scheme support
+
+    en:
+    cppbase:
+      > добавлена поддержка схемы tcpfd в фабрику транспортного уровня.
+
+
+commit 9501d164d2b8b3ea150afd70533359448721848b
+Author: Alexey Mednyy <amednyy@shtrih-m.ru>
+Date:   Fri Oct 20 13:51:57 2023 +0300
+
+    en:
+    classic:
+      > swig add lua support
+    console_test:
+      > add run-lua-script, run-lua-script-safe commands
+    ci:
+      > add astra linux build
+
+    ru:
+    classic:
+      > добавлена поддержка генерации lua обертки в classic_interface.i
+    console_test:
+      > добавлены команды run-lua-script, run-lua-script-safe
+    ci:
+      > добавлена сборка под astra linux
 
 
 commit 0fbabb31d883f955223eb9c06ab7ab9b3fc83a75
